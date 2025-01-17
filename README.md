@@ -89,7 +89,7 @@
 
 ---
 
-## Tools and Technologies You Might Use:
+## Tools and Technologies Used For This Project Implementation:
 
 - **Version Control**: Git, GitHub/GitLab/Bitbucket
 - **CI/CD Tools**: Jenkins, GitLab CI, CircleCI, Travis CI
@@ -111,6 +111,3 @@
 | **Phase 4**             | Set up monitoring (system-level, application-level), create alerts and dashboards |
 
 ---
-
-This project will provide you with a robust, secure, and automated development and deployment pipeline. You’ll be able to manage infrastructure, source code, security, and monitoring, ensuring a streamlined and efficient CI/CD workflow.
-
