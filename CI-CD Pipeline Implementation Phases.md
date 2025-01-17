@@ -1,22 +1,22 @@
 CI-CD PROJECT
--Phase - 1 
-  -Create seperate network environments - {for privacy, isolation, security}
-  -Create and manage VPC
-  -Create and manage Security Group and its inbound (incoming) rules.
-  -Create instances (3 instances for our Kubernetes cluster)
-  -Create kubernetes cluster - to deploy application [scan it for vulnerabilities]
-  -Create multiple VMs - sonarqube, Nexus, jenkins, Monitoring
+1. Phase - 1 
+  1. Create seperate network environments - {for privacy, isolation, security}
+  2. Create and manage VPC
+  3. Create and manage Security Group and its inbound (incoming) rules.
+  4. Create instances (3 instances for our Kubernetes cluster)
+  5. Create kubernetes cluster - to deploy application [scan it for vulnerabilities]
+  6. Create multiple VMs - sonarqube, Nexus, jenkins, Monitoring
 
--Phase - 2
-  -Create git repo [should be private]
-  -Push our source code
-  -Now whatever we pushed, make it visible
+2. Phase - 2
+  1. Create git repo [should be private]
+  2. Push our source code
+  3. Now whatever we pushed, make it visible
 
--Phase -3 
-  -Actual CI-CD pipeline implementation
-  -Take security measures alongwith
-  -After this Deployment is done
-  -Implement mail notifications
+3. Phase -3 
+  1. Actual CI-CD pipeline implementation
+  2. Take security measures alongwith
+  3. After this Deployment is done
+  4. Implement mail notifications
 
--Phase – 4
-  -Setup monitoring tools {done on 2 levels – system level (cpu, ram) & website level (traffic)}
+4. Phase – 4
+  1. Setup monitoring tools {done on 2 levels – system level (cpu, ram) & website level (traffic)}
