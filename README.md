@@ -4,10 +4,9 @@
 ## Phase 1: Infrastructure Setup & Security
 
 1. **Create Separate Network Environments for Privacy, Isolation, and Security**
-   - **Create and manage VPC (Virtual Private Cloud)**:
-     - Set up a **VPC** to ensure your cloud network is isolated from others.
-     - Configure it with public and private subnets as needed.
-     - Use **CIDR blocks** for IP address allocation and design the network topology.
+   - **Launch an AWS EC2 Instance**
+      - Use Amazon Linux 2 or Ubuntu 20.04 LTS.
+      - Configure keypair and configuration for these instances.
    - **Create and manage Security Groups**:
      - Create **Security Groups** for controlling traffic.
      - Define **inbound** (incoming) rules that specify which ports, protocols, and IP ranges can access your instances.
@@ -52,7 +51,6 @@
 1. **Build the CI/CD Pipeline**
    - **Jenkins Setup**: Use **Jenkins** for creating automated pipelines.
      - Set up Jenkins to trigger builds on source code changes (from Git).
-     - Configure **build tools** (e.g., **Maven**, **Gradle**, **Docker**).
      - Create a **Docker image** for your application (if applicable).
      - Use **Kubernetes Deployments** to manage application containers.
 
