@@ -6,7 +6,7 @@ Connect to the AWS Instances through SSH (Public IP) and Key pair generated (Use
 
 Then Run the kubernetes.sh script 
 
-then run 
+Then run 
 
 
 ```bash
