@@ -9,6 +9,9 @@ Then Run the kubernetes.sh script
 then run 
 
 
-'''bash
+```bash
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16
-'''
+```
+
+
+This will initiate kubernetes cluster and generate token for slave nodes to join the K8 cluster
